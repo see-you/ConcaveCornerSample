@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		909702E91CE17C0300BED0D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909702E81CE17C0300BED0D4 /* AppDelegate.swift */; };
+		909702EB1CE17C0300BED0D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909702EA1CE17C0300BED0D4 /* ViewController.swift */; };
+		909702EE1CE17C0300BED0D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909702EC1CE17C0300BED0D4 /* Main.storyboard */; };
+		909702F01CE17C0300BED0D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909702EF1CE17C0300BED0D4 /* Assets.xcassets */; };
+		909702F31CE17C0300BED0D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909702F11CE17C0300BED0D4 /* LaunchScreen.storyboard */; };
+		909702FE1CE17C0300BED0D4 /* ConcaveCornerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909702FD1CE17C0300BED0D4 /* ConcaveCornerSampleTests.swift */; };
+		909703091CE17C0300BED0D4 /* ConcaveCornerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909703081CE17C0300BED0D4 /* ConcaveCornerSampleUITests.swift */; };
+		909703171CE17D5300BED0D4 /* ConcaveCornerLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909703161CE17D5300BED0D4 /* ConcaveCornerLib.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		909702FA1CE17C0300BED0D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 909702DD1CE17C0300BED0D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 909702E41CE17C0300BED0D4;
+			remoteInfo = ConcaveCornerSample;
+		};
+		909703051CE17C0300BED0D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 909702DD1CE17C0300BED0D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 909702E41CE17C0300BED0D4;
+			remoteInfo = ConcaveCornerSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		909702E51CE17C0300BED0D4 /* ConcaveCornerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcaveCornerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		909702E81CE17C0300BED0D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		909702EA1CE17C0300BED0D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		909702ED1CE17C0300BED0D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		909702EF1CE17C0300BED0D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		909702F21CE17C0300BED0D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		909702F41CE17C0300BED0D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		909702F91CE17C0300BED0D4 /* ConcaveCornerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcaveCornerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		909702FD1CE17C0300BED0D4 /* ConcaveCornerSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcaveCornerSampleTests.swift; sourceTree = "<group>"; };
+		909702FF1CE17C0300BED0D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		909703041CE17C0300BED0D4 /* ConcaveCornerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcaveCornerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		909703081CE17C0300BED0D4 /* ConcaveCornerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcaveCornerSampleUITests.swift; sourceTree = "<group>"; };
+		9097030A1CE17C0300BED0D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		909703161CE17D5300BED0D4 /* ConcaveCornerLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcaveCornerLib.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		909702E21CE17C0300BED0D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909702F61CE17C0300BED0D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909703011CE17C0300BED0D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		909702DC1CE17C0300BED0D4 = {
+			isa = PBXGroup;
+			children = (
+				909702E71CE17C0300BED0D4 /* ConcaveCornerSample */,
+				909702FC1CE17C0300BED0D4 /* ConcaveCornerSampleTests */,
+				909703071CE17C0300BED0D4 /* ConcaveCornerSampleUITests */,
+				909702E61CE17C0300BED0D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		909702E61CE17C0300BED0D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				909702E51CE17C0300BED0D4 /* ConcaveCornerSample.app */,
+				909702F91CE17C0300BED0D4 /* ConcaveCornerSampleTests.xctest */,
+				909703041CE17C0300BED0D4 /* ConcaveCornerSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		909702E71CE17C0300BED0D4 /* ConcaveCornerSample */ = {
+			isa = PBXGroup;
+			children = (
+				909702E81CE17C0300BED0D4 /* AppDelegate.swift */,
+				909702EA1CE17C0300BED0D4 /* ViewController.swift */,
+				909702EC1CE17C0300BED0D4 /* Main.storyboard */,
+				909702EF1CE17C0300BED0D4 /* Assets.xcassets */,
+				909703161CE17D5300BED0D4 /* ConcaveCornerLib.swift */,
+				909702F11CE17C0300BED0D4 /* LaunchScreen.storyboard */,
+				909702F41CE17C0300BED0D4 /* Info.plist */,
+			);
+			path = ConcaveCornerSample;
+			sourceTree = "<group>";
+		};
+		909702FC1CE17C0300BED0D4 /* ConcaveCornerSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				909702FD1CE17C0300BED0D4 /* ConcaveCornerSampleTests.swift */,
+				909702FF1CE17C0300BED0D4 /* Info.plist */,
+			);
+			path = ConcaveCornerSampleTests;
+			sourceTree = "<group>";
+		};
+		909703071CE17C0300BED0D4 /* ConcaveCornerSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				909703081CE17C0300BED0D4 /* ConcaveCornerSampleUITests.swift */,
+				9097030A1CE17C0300BED0D4 /* Info.plist */,
+			);
+			path = ConcaveCornerSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		909702E41CE17C0300BED0D4 /* ConcaveCornerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9097030D1CE17C0300BED0D4 /* Build configuration list for PBXNativeTarget "ConcaveCornerSample" */;
+			buildPhases = (
+				909702E11CE17C0300BED0D4 /* Sources */,
+				909702E21CE17C0300BED0D4 /* Frameworks */,
+				909702E31CE17C0300BED0D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConcaveCornerSample;
+			productName = ConcaveCornerSample;
+			productReference = 909702E51CE17C0300BED0D4 /* ConcaveCornerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		909702F81CE17C0300BED0D4 /* ConcaveCornerSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909703101CE17C0300BED0D4 /* Build configuration list for PBXNativeTarget "ConcaveCornerSampleTests" */;
+			buildPhases = (
+				909702F51CE17C0300BED0D4 /* Sources */,
+				909702F61CE17C0300BED0D4 /* Frameworks */,
+				909702F71CE17C0300BED0D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				909702FB1CE17C0300BED0D4 /* PBXTargetDependency */,
+			);
+			name = ConcaveCornerSampleTests;
+			productName = ConcaveCornerSampleTests;
+			productReference = 909702F91CE17C0300BED0D4 /* ConcaveCornerSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		909703031CE17C0300BED0D4 /* ConcaveCornerSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909703131CE17C0300BED0D4 /* Build configuration list for PBXNativeTarget "ConcaveCornerSampleUITests" */;
+			buildPhases = (
+				909703001CE17C0300BED0D4 /* Sources */,
+				909703011CE17C0300BED0D4 /* Frameworks */,
+				909703021CE17C0300BED0D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				909703061CE17C0300BED0D4 /* PBXTargetDependency */,
+			);
+			name = ConcaveCornerSampleUITests;
+			productName = ConcaveCornerSampleUITests;
+			productReference = 909703041CE17C0300BED0D4 /* ConcaveCornerSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		909702DD1CE17C0300BED0D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "see-you";
+				TargetAttributes = {
+					909702E41CE17C0300BED0D4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SA3A367394;
+					};
+					909702F81CE17C0300BED0D4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SA3A367394;
+						TestTargetID = 909702E41CE17C0300BED0D4;
+					};
+					909703031CE17C0300BED0D4 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SA3A367394;
+						TestTargetID = 909702E41CE17C0300BED0D4;
+					};
+				};
+			};
+			buildConfigurationList = 909702E01CE17C0300BED0D4 /* Build configuration list for PBXProject "ConcaveCornerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 909702DC1CE17C0300BED0D4;
+			productRefGroup = 909702E61CE17C0300BED0D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				909702E41CE17C0300BED0D4 /* ConcaveCornerSample */,
+				909702F81CE17C0300BED0D4 /* ConcaveCornerSampleTests */,
+				909703031CE17C0300BED0D4 /* ConcaveCornerSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		909702E31CE17C0300BED0D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909702F31CE17C0300BED0D4 /* LaunchScreen.storyboard in Resources */,
+				909702F01CE17C0300BED0D4 /* Assets.xcassets in Resources */,
+				909702EE1CE17C0300BED0D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909702F71CE17C0300BED0D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909703021CE17C0300BED0D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		909702E11CE17C0300BED0D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909702EB1CE17C0300BED0D4 /* ViewController.swift in Sources */,
+				909702E91CE17C0300BED0D4 /* AppDelegate.swift in Sources */,
+				909703171CE17D5300BED0D4 /* ConcaveCornerLib.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909702F51CE17C0300BED0D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909702FE1CE17C0300BED0D4 /* ConcaveCornerSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		909703001CE17C0300BED0D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909703091CE17C0300BED0D4 /* ConcaveCornerSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		909702FB1CE17C0300BED0D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 909702E41CE17C0300BED0D4 /* ConcaveCornerSample */;
+			targetProxy = 909702FA1CE17C0300BED0D4 /* PBXContainerItemProxy */;
+		};
+		909703061CE17C0300BED0D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 909702E41CE17C0300BED0D4 /* ConcaveCornerSample */;
+			targetProxy = 909703051CE17C0300BED0D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		909702EC1CE17C0300BED0D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				909702ED1CE17C0300BED0D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		909702F11CE17C0300BED0D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				909702F21CE17C0300BED0D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9097030B1CE17C0300BED0D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9097030C1CE17C0300BED0D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9097030E1CE17C0300BED0D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConcaveCornerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tokyo.see-you.ConcaveCornerSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9097030F1CE17C0300BED0D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ConcaveCornerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tokyo.see-you.ConcaveCornerSample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		909703111CE17C0300BED0D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConcaveCornerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tokyo.see-you.ConcaveCornerSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConcaveCornerSample.app/ConcaveCornerSample";
+			};
+			name = Debug;
+		};
+		909703121CE17C0300BED0D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ConcaveCornerSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tokyo.see-you.ConcaveCornerSampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConcaveCornerSample.app/ConcaveCornerSample";
+			};
+			name = Release;
+		};
+		909703141CE17C0300BED0D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ConcaveCornerSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tokyo.see-you.ConcaveCornerSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ConcaveCornerSample;
+			};
+			name = Debug;
+		};
+		909703151CE17C0300BED0D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ConcaveCornerSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tokyo.see-you.ConcaveCornerSampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ConcaveCornerSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		909702E01CE17C0300BED0D4 /* Build configuration list for PBXProject "ConcaveCornerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9097030B1CE17C0300BED0D4 /* Debug */,
+				9097030C1CE17C0300BED0D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9097030D1CE17C0300BED0D4 /* Build configuration list for PBXNativeTarget "ConcaveCornerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9097030E1CE17C0300BED0D4 /* Debug */,
+				9097030F1CE17C0300BED0D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		909703101CE17C0300BED0D4 /* Build configuration list for PBXNativeTarget "ConcaveCornerSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909703111CE17C0300BED0D4 /* Debug */,
+				909703121CE17C0300BED0D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		909703131CE17C0300BED0D4 /* Build configuration list for PBXNativeTarget "ConcaveCornerSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909703141CE17C0300BED0D4 /* Debug */,
+				909703151CE17C0300BED0D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 909702DD1CE17C0300BED0D4 /* Project object */;
+}
